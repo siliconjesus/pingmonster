@@ -16,8 +16,8 @@ function startup () {
 	mkdir -p $OUTDIR
 
 function cleanup () {
-	cat /dev/null $INTFILE
-	cat /dev/null $EXTFILE
+	cat /dev/null > $INTFILE
+	cat /dev/null > $EXTFILE
 }
 
 # Internal - check the firewall is reachable:
