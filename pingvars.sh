@@ -7,6 +7,7 @@ PINGFLAGS="-c 5"
 PINGINT="192.168.1.1"
 PINGEXT="8.8.8.8"
 TODAY=`date +%Y-%m-%d`
+TIME=`date +%T`
 OUTDIR=/opt/pingmonster/logs
 INTCSV=$OUTDIR/$TODAY-pingmonster-int.csv
 EXTCSV=$OUTDIR/$TODAY-pingmonster-ext.csv
