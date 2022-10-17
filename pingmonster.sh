@@ -1,7 +1,7 @@
 #!/bin/bash
 
-. ./pingvars.sh
-. ./pingfunctions.sh
+source ./pingvars.sh
+source ./pingfunctions.sh
 
 
 # Internal - check the firewall is reachable:
