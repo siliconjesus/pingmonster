@@ -10,5 +10,3 @@ $PING $PINGFLAGS $PINGINT | grep rtt | awk '{print $4}' | sed -e 's/\//,/g' > $I
 
 # External - get stats
 $PING $PINGFLAGS $PINGEXT | grep rtt | awk '{print $4}' | sed -e 's/\//,/g' > $EXTCSV
-
-# cleanup()
